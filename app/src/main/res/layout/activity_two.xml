@@ -10,6 +10,13 @@
         android:id="@+id/etext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="添加、删除、将要修改………………"
+        />
+    <EditText
+        android:id="@+id/etext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="修改成………………………………"
         />
     <Button
         android:id="@+id/binto"
@@ -39,5 +46,9 @@
         android:text="查找数据"
         android:onClick="bfind"
         />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
 
 </LinearLayout>
